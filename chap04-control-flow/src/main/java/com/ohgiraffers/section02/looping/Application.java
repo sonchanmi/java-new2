@@ -8,6 +8,7 @@ public class Application {
         A_for a=new A_for();
 //        a.testfor();
 //        a.testforex2();
+//        a.testforex3();
 //        a.gugudan();
 
         A_nestedFor a2=new A_nestedFor();
@@ -22,7 +23,7 @@ public class Application {
 
         C_dowhlie a4=new C_dowhlie();
 //        a4.testdowhile();
-        a4.testdowhile2();
+//        a4.testdowhile2();
 
 
 

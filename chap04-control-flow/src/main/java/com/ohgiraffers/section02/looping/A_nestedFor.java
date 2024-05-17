@@ -36,7 +36,7 @@ public class A_nestedFor {
 
 
     }
-    public void ptritGugudan(int dan) {
+    public void ptritGugudan(int dan/*단을 하나씩 여기서 받아옴*/) { // 매개변수 단을 2~9까지 하나 씩받아와서 출력됨
         for (int su = 1; su < 10; su++) {
 
             System.out.println(dan + "*" + su + "=" + (dan * su));

@@ -6,7 +6,7 @@ public class B_while {
     public void testwhile(){
 
         /*
-        * [while문 표혀식]
+        * [while문 표현식]
         *
         * 초기식;
         * while(조건식){
@@ -34,14 +34,14 @@ public class B_while {
 
         /*
         *
-        * charAt() - 문자열에서 인덱스에 해당하는 문자를char 형으로 바꿔주는 기능
+        * charAt() - 문자열에서 인덱스에 해당하는 문자열을char 형으로 바꿔주는 기능
         * length() - String 문자열의 길이를 반환
         *
         * */
 
         System.out.println("==========for문=========");
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) { // 문자열의 인덱스 만큼 출력하겠다.
             char ch=str.charAt(i);
             System.out.println(ch+" "+i);
 
