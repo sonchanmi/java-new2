@@ -6,7 +6,7 @@ public class Applicaition01 {
         // 필드에 직접 접근하는 경우 발생하는 문제점 2
 
 
-        /*
+
         // monster 3마리 추가
         Monster monster1 = new Monster();
         monster1.name = "드라큘라";
@@ -25,7 +25,7 @@ public class Applicaition01 {
         System.out.println("monster2 = " + monster2.name);
         System.out.println("monster2 = " + monster2.hp);
         System.out.println("monster3 = " + monster3.name);
-        System.out.println("monster3 = " + monster3.hp);*/
+        System.out.println("monster3 = " + monster3.hp);
 
 
 

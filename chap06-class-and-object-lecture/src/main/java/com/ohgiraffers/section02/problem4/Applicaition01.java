@@ -4,7 +4,7 @@ public class Applicaition01 {
     public static void main(String[] args) {
 
         Monster4 monster1 = new Monster4();
-        // monster1.kinds = "프랑켄슈타인";
+        // monster1.kinds = "프랑켄슈타인"; private 때문에 접근 못함
         // monster1.hp = 200;
 
         /*
