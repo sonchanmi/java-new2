@@ -4,14 +4,14 @@ public class Car {
 
 
 
-    private boolean isOn;
+    private boolean isOn; // boolean 타입의 기본값은 false로 가짐
 
     private int speed;
 
 
     public void startUp(){
         if(isOn){
-            System.out.println("이미 시동이 걸려 있습니다");
+            System.out.println("이미 시동이 걸려 있습니다"); // 기본값이 false 이므로 else문으로 가짐
 
         }else{
 
@@ -25,8 +25,7 @@ public class Car {
     public void go(){
         if(isOn){
           if (speed==0){
-              System.out.println("자동차가 출발합니다");
-          }
+              System.out.println("자동차가 출발합니다");}
           speed+=10;
             System.out.println("자동차는 시속"+speed+"km/h 입니다. ");
 
@@ -40,8 +39,7 @@ public class Car {
             if(this.speed>0){
                 while(this.speed>0){
                     this.speed--;
-                    System.out.println("현재속도"+ this.speed+ "km/h");
-                }
+                    System.out.println("현재속도"+ this.speed+ "km/h");}
             }else{
                 System.out.println("이미 멈춰있는 상태입니다. ");
             }
@@ -52,6 +50,7 @@ public class Car {
         }
 
     }
+
     public void turnOff(){
         if(isOn){
             if(this.speed>0){

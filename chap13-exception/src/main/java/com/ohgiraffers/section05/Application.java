@@ -15,6 +15,8 @@ public class Application {
 
             jobList[5] = new Job(6,"PL");
             jobList[6] = new Job(7,"BogData");
+
+
         }catch (ArrayIndexOutOfBoundsException e){
             e.printStackTrace();
         }catch (Exception e){
